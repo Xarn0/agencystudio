@@ -7,7 +7,7 @@
 			v-for="(el, key) in profileList"
 			:key="key"
 		>
-			<v-img :src="'/images/' + el.img">
+			<v-img :src="'/agencystudio/images/' + el.img">
 				<div class="my-container">
 					<span class="text-uppercase" style="color: #ff7425">{{
 						el.subtitle

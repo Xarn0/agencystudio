@@ -1,30 +1,30 @@
 <template>
 	<div class="My-bg">
-		<sectionAbout />
-		<greateidea />
-		<experienceBlock style="margin-bottom: 10vw" />
-		<swiperSlider style="margin-bottom: 5vw" />
-		<peraluxBoxVue style="margin-bottom: 10vw" />
-		<digitalExprienceVue />
+		<SectionAbout />
+		<Greateidea />
+		<ExperienceBlock style="margin-bottom: 10vw" />
+		<SwiperSlider style="margin-bottom: 5vw" />
+		<PeraluxBoxVue style="margin-bottom: 10vw" />
+		<DigitalExprienceVue />
 	</div>
 </template>
 
 <script>
-import sectionAbout from "../components/aboutCretified";
-import greateidea from "../components/greateIdea";
-import swiperSlider from "@/components/swiperSlider.vue";
-import experienceBlock from "../components/experienceBlock";
-import peraluxBoxVue from "../components/peraluxBox.vue";
+import SectionAbout from "../components/aboutCretified";
+import Greateidea from "../components/greateIdea";
+import SwiperSlider from "@/components/swiperSlider.vue";
+import ExperienceBlock from "../components/experienceBlock";
+import PeraluxBoxVue from "../components/peraluxBox.vue";
 
-import digitalExprienceVue from "../components/digitalExprience.vue";
+import DigitalExprienceVue from "../components/digitalExprience.vue";
 export default {
 	components: {
-		sectionAbout,
-		greateidea,
-		swiperSlider,
-		experienceBlock,
-		peraluxBoxVue,
-		digitalExprienceVue,
+		SectionAbout,
+		Greateidea,
+		SwiperSlider,
+		ExperienceBlock,
+		PeraluxBoxVue,
+		DigitalExprienceVue,
 	},
 };
 </script>
